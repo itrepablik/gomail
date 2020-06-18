@@ -1,5 +1,5 @@
 # Introduction
-
+![gomail](https://user-images.githubusercontent.com/58651329/84985674-c69ebf00-b16f-11ea-9cf4-57a7eb4e00c6.png)
 We have downloaded and modified this **gomail** package originally from the author **alexcesaro** of [#gomail](https://github.com/go-gomail/gomail) in which the package seems no longer maintaining, that's why we take this very good package to maintain it for other gopher developers.
 
 Gomail is a simple and efficient package to send emails. It is well tested and
