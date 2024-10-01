@@ -21,7 +21,7 @@ Gomail supports:
 - Sending multiple emails with the same SMTP connection
 
 # Installation
-```
+```Go
 go get -u github.com/itrepablik/gomail
 ```
 
@@ -32,7 +32,8 @@ go get -u github.com/itrepablik/gomail
 If you get this error it means the certificate used by the SMTP server is not
 considered valid by the client running Gomail. As a quick workaround you can
 bypass the verification of the server's certificate chain and host name by using
-`SetTLSConfig`:
+```Go
+    // SetTLSConfig`:
 
     package main
 
@@ -55,7 +56,6 @@ Note, however, that this is insecure and should not be used in production.
 We also have another package in which gomail and sendgrid are supported, kindly install **sulat** package.
 ```
 go get -u github.com/itrepablik/sulat
-```
 
 # Usage of Sulat Package
 This is an example usage of how to send an email using gomail package with [#sulat](https://github.com/itrepablik/sulat) package:
