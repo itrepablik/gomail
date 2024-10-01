@@ -59,7 +59,7 @@ go get -u github.com/itrepablik/sulat
 
 # Usage of Sulat Package
 This is an example usage of how to send an email using gomail package with [#sulat](https://github.com/itrepablik/sulat) package:
-```
+```Go
 package main
 
 import (
